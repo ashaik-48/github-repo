@@ -8,8 +8,6 @@ When a PR is created/updated, GitHub sends a webhook → the service analyzes th
 
 Clients can then query analysis results via REST API.
 
----
-
 ## Architecture Overview
 
 ```
