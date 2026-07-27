@@ -251,8 +251,6 @@ Pydantic models for pipeline state flow:
 
 6. **Signature Validation**: Verifies authenticity of GitHub webhook using HMAC-SHA256.
 
----
-
 ## Current Status
 
 ✅ End-to-end pipeline validated locally
@@ -261,7 +259,6 @@ Pydantic models for pipeline state flow:
 ✅ Analysis retrieval working
 ✅ All 6 pipeline stages integrated
 
----
 
 ## Future Enhancements (Optional)
 
