@@ -143,3 +143,7 @@ lsof -ti:8010 | xargs kill -9
 - `GET /pr-analysis/{owner}/{repo}/{pr_number}`
 - Optional filter: `GET /pr-analysis/{owner}/{repo}/{pr_number}?provider=github|gitlab`
 - `GET /pr-analysis/{analysis_id}`
+
+## 9. For windows
+
+- Use Windows commands for setup
