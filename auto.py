@@ -3,6 +3,7 @@
 Classifies the PR/MR change set and, when it contains only whitespace /
 alignment changes, merges it automatically. Real code changes are left for
 human review.
+
 Runs as a separate, guaranteed step (see ``run_auto_merge``) rather than a
 core pipeline node, so the merge decision is made even if earlier stages had
 non-fatal issues. Gated by ``settings.auto_merge_enabled`` (off by default).
