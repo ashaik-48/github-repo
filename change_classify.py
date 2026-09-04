@@ -16,9 +16,7 @@ heuristic. Because of that, auto-merge is opt-in (``AUTO_MERGE_ENABLED``) and
 defaults to off.
 """
 from __future__ import annotations
-
 import re
-
 from app.pr_pipeline.state import PRFileDiff
 
 WHITESPACE_ONLY = "whitespace_only"
