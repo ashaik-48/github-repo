@@ -6,9 +6,8 @@ Exposes read-only endpoints for retrieving stored analysis results:
 - ``GET /pr-analysis/{analysis_id}``                     -- analysis by primary key.
 """
 from __future__ import annotations
-
 from datetime import datetime, timezone
-from uuid import uuid4
+from uuid import 
 
 from fastapi import APIRouter, Depends, Header, HTTPException, Query
 
