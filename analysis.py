@@ -5,8 +5,8 @@ Exposes read-only endpoints for retrieving stored analysis results:
 - ``GET /pr-analysis/events/{delivery_id}``              -- pipeline stage trail by delivery.
 - ``GET /pr-analysis/{analysis_id}``                     -- analysis by primary key.
 """
-from __future__ import annotations
-from datetime import datetime, timezone
+from __future__ import
+from datetime import 
 from uuid import 
 
 from fastapi import APIRouter, Depends, Header, HTTPException, Query
@@ -21,7 +21,7 @@ from app.database import (
     get_pipeline_events_by_delivery,
     get_recent_runs,
 )
-from app.config import settings
+from app.config import 
 from app.schemas import (
     AnalysisFindingResponse,
     AnalysisResponse,
