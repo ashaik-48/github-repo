@@ -9,7 +9,6 @@ core pipeline node, so the merge decision is made even if earlier stages had
 non-fatal issues. Gated by ``settings.auto_merge_enabled`` (off by default).
 """
 from __future__ import annotations
-
 from app.change_classify import WHITESPACE_ONLY, classify_change
 from app.config import settings
 from app.github_client import GitHubClient
